@@ -1,0 +1,490 @@
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Aurora1_1.png и ubuntu-wallpapers-22.04.4.uncom/Aurora1_1.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Aurora1.png и ubuntu-wallpapers-22.04.4.uncom/Aurora1.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Badge.png и ubuntu-wallpapers-22.04.4.uncom/Badge.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Blue_flower_by_Elena_Stravoravdi.jpg и ubuntu-wallpapers-22.04.4.uncom/Blue_flower_by_Elena_Stravoravdi.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/canvas_by_roytanck.jpg и ubuntu-wallpapers-22.04.4.uncom/canvas_by_roytanck.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg и ubuntu-wallpapers-22.04.4.uncom/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg различаются
+diff -Nur ubuntu-wallpapers-22.04.4.orig/contest/jammy.xml ubuntu-wallpapers-22.04.4.uncom/contest/jammy.xml
+--- ubuntu-wallpapers-22.04.4.orig/contest/jammy.xml	2022-04-14 21:37:02.677457600 +0300
++++ ubuntu-wallpapers-22.04.4.uncom/contest/jammy.xml	2022-11-24 10:38:15.000000000 +0300
+@@ -10,101 +10,101 @@
+ <!-- This animation will start at midnight. -->
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg</file>
++    <file>/usr/share/backgrounds/Aurora1.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg</from>
+-    <to>/usr/share/backgrounds/DSC2943_by_kcpru.jpg</to>
++    <from>/usr/share/backgrounds/Aurora1.png</from>
++    <to>/usr/share/backgrounds/Aurora1_1.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/DSC2943_by_kcpru.jpg</file>
++    <file>/usr/share/backgrounds/Aurora1_1.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/DSC2943_by_kcpru.jpg</from>
+-    <to>/usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg</to>
++    <from>/usr/share/backgrounds/Aurora1_1.png</from>
++    <to>/usr/share/backgrounds/Badge.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg</file>
++    <file>/usr/share/backgrounds/Badge.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg</from>
+-    <to>/usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg</to>
++    <from>/usr/share/backgrounds/Badge.png</from>
++    <to>/usr/share/backgrounds/Distortion.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg</file>
++    <file>/usr/share/backgrounds/Distortion.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg</from>
+-    <to>/usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg</to>
++    <from>/usr/share/backgrounds/Distortion.png</from>
++    <to>/usr/share/backgrounds/Fringe.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg</file>
++    <file>/usr/share/backgrounds/Fringe.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg</from>
+-    <to>/usr/share/backgrounds/canvas_by_roytanck.jpg</to>
++    <from>/usr/share/backgrounds/Fringe.png</from>
++    <to>/usr/share/backgrounds/Mindblow.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/canvas_by_roytanck.jpg</file>
++    <file>/usr/share/backgrounds/Mindblow.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/canvas_by_roytanck.jpg</from>
+-    <to>/usr/share/backgrounds/jj_light_by_Hiking93.jpg</to>
++    <from>/usr/share/backgrounds/Mindblow.png</from>
++    <to>/usr/share/backgrounds/You.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/jj_light_by_Hiking93.jpg</file>
++    <file>/usr/share/backgrounds/You.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/jj_light_by_Hiking93.jpg</from>
+-    <to>/usr/share/backgrounds/ubuntu_by_arman1992.jpg</to>
++    <from>/usr/share/backgrounds/You.png</from>
++    <to>/usr/share/backgrounds/Mindblow_bright.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/ubuntu_by_arman1992.jpg</file>
++    <file>/usr/share/backgrounds/Mindblow_bright.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/ubuntu_by_arman1992.jpg</from>
+-    <to>/usr/share/backgrounds/ubuntu2_by_arman1992.jpg</to>
++    <from>/usr/share/backgrounds/Mindblow_bright.png</from>
++    <to>/usr/share/backgrounds/Mindblow_dark.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/ubuntu2_by_arman1992.jpg</file>
++    <file>/usr/share/backgrounds/Mindblow_dark.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/ubuntu2_by_arman1992.jpg</from>
+-    <to>/usr/share/backgrounds/jj_dark_by_Hiking93.jpg</to>
++    <from>/usr/share/backgrounds/Mindblow_dark.png</from>
++    <to>/usr/share/backgrounds/Mindblow_mono.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/jj_dark_by_Hiking93.jpg</file>
++    <file>/usr/share/backgrounds/Mindblow_mono.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/jj_dark_by_Hiking93.jpg</from>
+-    <to>/usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png</to>
++    <from>/usr/share/backgrounds/Mindblow_mono.png</from>
++    <to>/usr/share/backgrounds/Sphere_unc.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png</file>
++    <file>/usr/share/backgrounds/Sphere_unc.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png</from>
+-    <to>/usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg</to>
++    <from>/usr/share/backgrounds/Sphere_unc.png</from>
++    <to>/usr/share/backgrounds/Sphere2_unc.png</to>
+   </transition>
+ </background>
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/changelog ubuntu-wallpapers-22.04.4.uncom/debian/changelog
+--- ubuntu-wallpapers-22.04.4.orig/debian/changelog	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4.uncom/debian/changelog	2022-11-24 10:26:05.000000000 +0300
+@@ -1,3 +1,15 @@
++ubuntu-wallpapers (22.04.4-0ubuntu1uncom2) jammy; urgency=medium
++
++  * new 4k wallpapers
++
++ -- Evgeny Gorbachev <e.gorbachev@tv-look.ru> Thu, 24 Nov 2022 10:24:34 +0300
++
++ubuntu-wallpapers (22.04.4-0ubuntu1uncom1) jammy; urgency=medium
++
++  * remove some wallpapers
++
++ -- Evgeny Gorbachev <e.gorbachev@tv-look.ru> Tue, 22 Nov 2022 12:12:34 +0300
++
+ ubuntu-wallpapers (22.04.4-0ubuntu1) jammy; urgency=medium
+ 
+   * Minor adjustments to the Jammy mascot wallpapers (LP: #1969148)
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.install ubuntu-wallpapers-22.04.4.uncom/debian/ubuntu-wallpapers.install
+--- ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.install	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4.uncom/debian/ubuntu-wallpapers.install	2022-11-24 10:30:11.000000000 +0300
+@@ -1,3 +1,4 @@
+-usr/share/backgrounds/warty-final-ubuntu.png
++usr/share/backgrounds/Sphere.png
++usr/share/backgrounds/Sphere2.png
+ usr/share/gnome-background-properties/ubuntu-wallpapers.xml
+ usr/share/locale
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers-jammy.install ubuntu-wallpapers-22.04.4.uncom/debian/ubuntu-wallpapers-jammy.install
+--- ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers-jammy.install	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4.uncom/debian/ubuntu-wallpapers-jammy.install	2022-11-24 10:32:50.000000000 +0300
+@@ -1,13 +1,15 @@
+-usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg
+-usr/share/backgrounds/canvas_by_roytanck.jpg
+-usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg
+-usr/share/backgrounds/DSC2943_by_kcpru.jpg
+-usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png
+-usr/share/backgrounds/jj_dark_by_Hiking93.jpg
+-usr/share/backgrounds/jj_light_by_Hiking93.jpg
+-usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg
+-usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg
+-usr/share/backgrounds/ubuntu2_by_arman1992.jpg
+-usr/share/backgrounds/ubuntu_by_arman1992.jpg
++usr/share/backgrounds/Aurora1_1.png
++usr/share/backgrounds/Aurora1.png
++usr/share/backgrounds/Badge.png
++usr/share/backgrounds/Distortion.png
++usr/share/backgrounds/Fringe.png
++usr/share/backgrounds/Indifference.png
++usr/share/backgrounds/Mindblow.png
++usr/share/backgrounds/Mindblow_bright.png
++usr/share/backgrounds/Mindblow_dark.png
++usr/share/backgrounds/Mindblow_mono.png
++usr/share/backgrounds/Sphere_unc.png
++usr/share/backgrounds/Sphere2_unc.png
++usr/share/backgrounds/You.png
+ usr/share/gnome-background-properties/jammy-wallpapers.xml
+ usr/share/backgrounds/contest/jammy.xml
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.links ubuntu-wallpapers-22.04.4.uncom/debian/ubuntu-wallpapers.links
+--- ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.links	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4.uncom/debian/ubuntu-wallpapers.links	2022-11-22 13:53:34.000000000 +0300
+@@ -1 +1 @@
+-/usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
++/usr/share/backgrounds/Indifference.png /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.postinst ubuntu-wallpapers-22.04.4.uncom/debian/ubuntu-wallpapers.postinst
+--- ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.postinst	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4.uncom/debian/ubuntu-wallpapers.postinst	2022-11-22 12:34:29.000000000 +0300
+@@ -4,7 +4,7 @@
+ case "$1" in
+     configure)
+         # Workaround LP: #746028
+-        touch /usr/share/backgrounds/warty-final-ubuntu.png
++        touch /usr/share/backgrounds/uncom.png
+     ;;
+ 
+     abort-upgrade|abort-deconfigure|abort-remove)
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Distortion.png и ubuntu-wallpapers-22.04.4.uncom/Distortion.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/DSC2943_by_kcpru.jpg и ubuntu-wallpapers-22.04.4.uncom/DSC2943_by_kcpru.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Fringe.png и ubuntu-wallpapers-22.04.4.uncom/Fringe.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Indifference.png и ubuntu-wallpapers-22.04.4.uncom/Indifference.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Jammy-Jellyfish_WP_4096x2304_Grey.png и ubuntu-wallpapers-22.04.4.uncom/Jammy-Jellyfish_WP_4096x2304_Grey.png различаются
+diff -Nur ubuntu-wallpapers-22.04.4.orig/jammy-wallpapers.xml.in ubuntu-wallpapers-22.04.4.uncom/jammy-wallpapers.xml.in
+--- ubuntu-wallpapers-22.04.4.orig/jammy-wallpapers.xml.in	2022-04-14 21:37:02.677457600 +0300
++++ ubuntu-wallpapers-22.04.4.uncom/jammy-wallpapers.xml.in	2022-11-24 10:35:24.000000000 +0300
+@@ -7,80 +7,104 @@
+    <options>zoom</options>
+  </wallpaper>
+  <wallpaper>
+-     <_name>Blue flower</_name>
+-     <filename>/usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg</filename>
++     <_name>Aurora1</_name>
++     <filename>/usr/share/backgrounds/Aurora1.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>canvas</_name>
+-     <filename>/usr/share/backgrounds/canvas_by_roytanck.jpg</filename>
++     <_name>Aurora1_1</_name>
++     <filename>/usr/share/backgrounds/Aurora1_1.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>Cherry Tree in Lakones</_name>
+-     <filename>/usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg</filename>
++     <_name>Badge</_name>
++     <filename>/usr/share/backgrounds/Badge.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>DSC2943</_name>
+-     <filename>/usr/share/backgrounds/DSC2943_by_kcpru.jpg</filename>
++     <_name>Distortion</_name>
++     <filename>/usr/share/backgrounds/Distortion.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>jj dark</_name>
+-     <filename>/usr/share/backgrounds/jj_dark_by_Hiking93.jpg</filename>
++     <_name>Fringe</_name>
++     <filename>/usr/share/backgrounds/Fringe.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>jj light</_name>
+-     <filename>/usr/share/backgrounds/jj_light_by_Hiking93.jpg</filename>
++     <_name>Indifference</_name>
++     <filename>/usr/share/backgrounds/Indifference.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>Mirror</_name>
+-     <filename>/usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg</filename>
++     <_name>Mindblow</_name>
++     <filename>/usr/share/backgrounds/Mindblow.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>Optical Fibers in Dark</_name>
+-     <filename>/usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg</filename>
++     <_name>Mindblow_bright</_name>
++     <filename>/usr/share/backgrounds/Mindblow_bright.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>ubuntu2</_name>
+-     <filename>/usr/share/backgrounds/ubuntu2_by_arman1992.jpg</filename>
++     <_name>Mindblow_dark</_name>
++     <filename>/usr/share/backgrounds/Mindblow_dark.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>ubuntu</_name>
+-     <filename>/usr/share/backgrounds/ubuntu_by_arman1992.jpg</filename>
++     <_name>Mindblow_mono</_name>
++     <filename>/usr/share/backgrounds/Mindblow_mono.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Sphere_unc</_name>
++     <filename>/usr/share/backgrounds/Sphere_unc.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Sphere2_unc</_name>
++     <filename>/usr/share/backgrounds/Sphere2_unc.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>You</_name>
++     <filename>/usr/share/backgrounds/You.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/jj_dark_by_Hiking93.jpg и ubuntu-wallpapers-22.04.4.uncom/jj_dark_by_Hiking93.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/jj_light_by_Hiking93.jpg и ubuntu-wallpapers-22.04.4.uncom/jj_light_by_Hiking93.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mindblow_bright.png и ubuntu-wallpapers-22.04.4.uncom/Mindblow_bright.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mindblow_dark.png и ubuntu-wallpapers-22.04.4.uncom/Mindblow_dark.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mindblow_mono.png и ubuntu-wallpapers-22.04.4.uncom/Mindblow_mono.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mindblow.png и ubuntu-wallpapers-22.04.4.uncom/Mindblow.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mirror_by_Uday_Nakade.jpg и ubuntu-wallpapers-22.04.4.uncom/Mirror_by_Uday_Nakade.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg и ubuntu-wallpapers-22.04.4.uncom/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg различаются
+diff -Nur ubuntu-wallpapers-22.04.4.orig/po/ubuntu-wallpapers.pot ubuntu-wallpapers-22.04.4.uncom/po/ubuntu-wallpapers.pot
+--- ubuntu-wallpapers-22.04.4.orig/po/ubuntu-wallpapers.pot	2022-04-14 21:37:02.677457600 +0300
++++ ubuntu-wallpapers-22.04.4.uncom/po/ubuntu-wallpapers.pot	2022-11-24 10:39:33.000000000 +0300
+@@ -8,7 +8,7 @@
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2022-03-25 21:16+0100\n"
++"POT-Creation-Date: 2022-11-24 10:39+0300\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+ "Language-Team: LANGUAGE <LL@li.org>\n"
+@@ -298,43 +298,55 @@
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:1
+-msgid "Blue flower"
++msgid "Aurora1"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:2
+-msgid "canvas"
++msgid "Aurora1_1"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:3
+-msgid "Cherry Tree in Lakones"
++msgid "Badge"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:4
+-msgid "DSC2943"
++msgid "Distortion"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:5
+-msgid "jj dark"
++msgid "Fringe"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:6
+-msgid "jj light"
++msgid "Indifference"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:7
+-msgid "Mirror"
++msgid "Mindblow"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:8
+-msgid "Optical Fibers in Dark"
++msgid "Mindblow_bright"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:9
+-msgid "ubuntu"
++msgid "Mindblow_dark"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:10
+-msgid "ubuntu2"
++msgid "Mindblow_mono"
++msgstr ""
++
++#: ../jammy-wallpapers.xml.in.h:11
++msgid "Sphere_unc"
++msgstr ""
++
++#: ../jammy-wallpapers.xml.in.h:12
++msgid "Sphere2_unc"
++msgstr ""
++
++#: ../jammy-wallpapers.xml.in.h:13
++msgid "You"
+ msgstr ""
+ 
+ #: ../karmic-wallpapers.xml.in.h:1
+@@ -934,11 +946,11 @@
+ msgstr ""
+ 
+ #: ../ubuntu-wallpapers.xml.in.h:1
+-msgid "Ubuntu"
++msgid "Uncom"
+ msgstr ""
+ 
+ #: ../ubuntu-wallpapers.xml.in.h:2
+-msgid "Ubuntu Greyscale"
++msgid "Uncom2"
+ msgstr ""
+ 
+ #: ../utopic-wallpapers.xml.in.h:1
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Sphere2.png и ubuntu-wallpapers-22.04.4.uncom/Sphere2.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Sphere2_unc.png и ubuntu-wallpapers-22.04.4.uncom/Sphere2_unc.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Sphere.png и ubuntu-wallpapers-22.04.4.uncom/Sphere.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Sphere_unc.png и ubuntu-wallpapers-22.04.4.uncom/Sphere_unc.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/ubuntu2_by_arman1992.jpg и ubuntu-wallpapers-22.04.4.uncom/ubuntu2_by_arman1992.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/ubuntu_by_arman1992.jpg и ubuntu-wallpapers-22.04.4.uncom/ubuntu_by_arman1992.jpg различаются
+diff -Nur ubuntu-wallpapers-22.04.4.orig/ubuntu-wallpapers.xml.in ubuntu-wallpapers-22.04.4.uncom/ubuntu-wallpapers.xml.in
+--- ubuntu-wallpapers-22.04.4.orig/ubuntu-wallpapers.xml.in	2022-04-14 21:37:02.677457600 +0300
++++ ubuntu-wallpapers-22.04.4.uncom/ubuntu-wallpapers.xml.in	2022-11-24 10:29:47.000000000 +0300
+@@ -2,19 +2,19 @@
+ <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+ <wallpapers>
+   <wallpaper>
+-    <_name>Ubuntu</_name>
+-    <filename>/usr/share/backgrounds/warty-final-ubuntu.png</filename>
++    <_name>Uncom</_name>
++    <filename>/usr/share/backgrounds/Sphere.png</filename>
+     <options>zoom</options>
+     <pcolor>#2c001e</pcolor>
+     <scolor>#2c001e</scolor>
+     <shade_type>solid</shade_type>
+   </wallpaper>
+   <wallpaper>
+-    <_name>Ubuntu Greyscale</_name>
+-    <filename>/usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png</filename>
++    <_name>Uncom2</_name>
++    <filename>/usr/share/backgrounds/Sphere2.png</filename>
+     <options>zoom</options>
+-    <pcolor>#333333</pcolor>
+-    <scolor>#333333</scolor>
++    <pcolor>#2c001e</pcolor>
++    <scolor>#2c001e</scolor>
+     <shade_type>solid</shade_type>
+   </wallpaper>
+ </wallpapers>
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/warty-final-ubuntu.png и ubuntu-wallpapers-22.04.4.uncom/warty-final-ubuntu.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/You.png и ubuntu-wallpapers-22.04.4.uncom/You.png различаются

@@ -1,0 +1,815 @@
+diff -Nur ubuntu-wallpapers-22.04.4.orig/andromeda-wallpapers.xml.in ubuntu-wallpapers-22.04.4/andromeda-wallpapers.xml.in
+--- ubuntu-wallpapers-22.04.4.orig/andromeda-wallpapers.xml.in	1970-01-01 03:00:00.000000000 +0300
++++ ubuntu-wallpapers-22.04.4/andromeda-wallpapers.xml.in	2023-12-18 11:03:07.586217360 +0300
+@@ -0,0 +1,161 @@
++<?xml version="1.0"?>
++<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
++<wallpapers>
++ <wallpaper deleted="false">
++   <name>Uncom 2.3 Wallpapers</name>
++   <filename>/usr/share/backgrounds/contest/andromeda.xml</filename>
++   <options>zoom</options>
++ </wallpaper>
++ <wallpaper>
++     <_name>Concrete_blocks</_name>
++     <filename>/usr/share/backgrounds/Concrete_blocks.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Concrete_waves</_name>
++     <filename>/usr/share/backgrounds/Concrete_waves.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Fabric_waves</_name>
++     <filename>/usr/share/backgrounds/Fabric_waves.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Fabric_waves_2</_name>
++     <filename>/usr/share/backgrounds/Fabric_waves_2.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Felt_waves</_name>
++     <filename>/usr/share/backgrounds/Felt_waves.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Felt_waves_2</_name>
++     <filename>/usr/share/backgrounds/Felt_waves_2.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Fur_waves</_name>
++     <filename>/usr/share/backgrounds/Fur_waves.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Glass_lines</_name>
++     <filename>/usr/share/backgrounds/Glass_lines.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Glass_oreo</_name>
++     <filename>/usr/share/backgrounds/Glass_oreo.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Glass_waves</_name>
++     <filename>/usr/share/backgrounds/Glass_waves.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Iron_layers</_name>
++     <filename>/usr/share/backgrounds/Iron_layers.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Iron_oreo</_name>
++     <filename>/usr/share/backgrounds/Iron_oreo.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Paper_layers</_name>
++     <filename>/usr/share/backgrounds/Paper_layers.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Paper_lines</_name>
++     <filename>/usr/share/backgrounds/Paper_lines.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Plush_waves</_name>
++     <filename>/usr/share/backgrounds/Plush_waves.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Silk_waves</_name>
++     <filename>/usr/share/backgrounds/Silk_waves.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Wood_waves</_name>
++     <filename>/usr/share/backgrounds/Wood_waves.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Wool_surface</_name>
++     <filename>/usr/share/backgrounds/Wool_surface.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Wool_waves</_name>
++     <filename>/usr/share/backgrounds/Wool_waves.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++</wallpapers>
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Aurora1_1.png и ubuntu-wallpapers-22.04.4/Aurora1_1.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Aurora1.png и ubuntu-wallpapers-22.04.4/Aurora1.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Badge.png и ubuntu-wallpapers-22.04.4/Badge.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Blue_flower_by_Elena_Stravoravdi.jpg и ubuntu-wallpapers-22.04.4/Blue_flower_by_Elena_Stravoravdi.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/canvas_by_roytanck.jpg и ubuntu-wallpapers-22.04.4/canvas_by_roytanck.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg и ubuntu-wallpapers-22.04.4/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Concrete_blocks.png и ubuntu-wallpapers-22.04.4/Concrete_blocks.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Concrete_waves.png и ubuntu-wallpapers-22.04.4/Concrete_waves.png различаются
+diff -Nur ubuntu-wallpapers-22.04.4.orig/contest/andromeda.xml ubuntu-wallpapers-22.04.4/contest/andromeda.xml
+--- ubuntu-wallpapers-22.04.4.orig/contest/andromeda.xml	1970-01-01 03:00:00.000000000 +0300
++++ ubuntu-wallpapers-22.04.4/contest/andromeda.xml	2023-12-18 11:19:54.295671730 +0300
+@@ -0,0 +1,110 @@
++<background>
++  <starttime>
++    <year>2009</year>
++    <month>08</month>
++    <day>04</day>
++    <hour>00</hour>
++    <minute>00</minute>
++    <second>00</second>
++  </starttime>
++<!-- This animation will start at midnight. -->
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Concrete_blocks.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Concrete_blocks.png</from>
++    <to>/usr/share/backgrounds/Concrete_waves.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Concrete_waves.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Concrete_waves.png</from>
++    <to>/usr/share/backgrounds/Fabric_waves.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Fabric_waves.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Fabric_waves.png</from>
++    <to>/usr/share/backgrounds/Fabric_waves_2.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Fabric_waves_2.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Fabric_waves_2.png</from>
++    <to>/usr/share/backgrounds/Felt_waves.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Felt_waves.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Felt_waves.png</from>
++    <to>/usr/share/backgrounds/Felt_waves_2.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Felt_waves_2.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Felt_waves_2.png</from>
++    <to>/usr/share/backgrounds/Fur_waves.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Fur_waves.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Fur_waves.png</from>
++    <to>/usr/share/backgrounds/Glass_lines.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Glass_lines.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Glass_lines.png</from>
++    <to>/usr/share/backgrounds/Glass_oreo.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Glass_oreo.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Glass_oreo.png</from>
++    <to>/usr/share/backgrounds/Glass_waves.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Glass_waves.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Glass_waves.png</from>
++    <to>/usr/share/backgrounds/Iron_layers.png</to>
++  </transition>
++  <static>
++    <duration>1795.0</duration>
++    <file>/usr/share/backgrounds/Iron_layers.png</file>
++  </static>
++  <transition>
++    <duration>5.0</duration>
++    <from>/usr/share/backgrounds/Iron_layers.png</from>
++    <to>/usr/share/backgrounds/Iron_oreo.png</to>
++  </transition>
++</background>
+diff -Nur ubuntu-wallpapers-22.04.4.orig/contest/jammy.xml ubuntu-wallpapers-22.04.4/contest/jammy.xml
+--- ubuntu-wallpapers-22.04.4.orig/contest/jammy.xml	2022-04-14 21:37:02.677457600 +0300
++++ ubuntu-wallpapers-22.04.4/contest/jammy.xml	2023-12-18 10:32:18.755813152 +0300
+@@ -10,101 +10,101 @@
+ <!-- This animation will start at midnight. -->
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg</file>
++    <file>/usr/share/backgrounds/Aurora1.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg</from>
+-    <to>/usr/share/backgrounds/DSC2943_by_kcpru.jpg</to>
++    <from>/usr/share/backgrounds/Aurora1.png</from>
++    <to>/usr/share/backgrounds/Aurora1_1.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/DSC2943_by_kcpru.jpg</file>
++    <file>/usr/share/backgrounds/Aurora1_1.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/DSC2943_by_kcpru.jpg</from>
+-    <to>/usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg</to>
++    <from>/usr/share/backgrounds/Aurora1_1.png</from>
++    <to>/usr/share/backgrounds/Badge.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg</file>
++    <file>/usr/share/backgrounds/Badge.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg</from>
+-    <to>/usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg</to>
++    <from>/usr/share/backgrounds/Badge.png</from>
++    <to>/usr/share/backgrounds/Distortion.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg</file>
++    <file>/usr/share/backgrounds/Distortion.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg</from>
+-    <to>/usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg</to>
++    <from>/usr/share/backgrounds/Distortion.png</from>
++    <to>/usr/share/backgrounds/Fringe.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg</file>
++    <file>/usr/share/backgrounds/Fringe.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg</from>
+-    <to>/usr/share/backgrounds/canvas_by_roytanck.jpg</to>
++    <from>/usr/share/backgrounds/Fringe.png</from>
++    <to>/usr/share/backgrounds/Mindblow.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/canvas_by_roytanck.jpg</file>
++    <file>/usr/share/backgrounds/Mindblow.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/canvas_by_roytanck.jpg</from>
+-    <to>/usr/share/backgrounds/jj_light_by_Hiking93.jpg</to>
++    <from>/usr/share/backgrounds/Mindblow.png</from>
++    <to>/usr/share/backgrounds/You.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/jj_light_by_Hiking93.jpg</file>
++    <file>/usr/share/backgrounds/You.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/jj_light_by_Hiking93.jpg</from>
+-    <to>/usr/share/backgrounds/ubuntu_by_arman1992.jpg</to>
++    <from>/usr/share/backgrounds/You.png</from>
++    <to>/usr/share/backgrounds/Mindblow_bright.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/ubuntu_by_arman1992.jpg</file>
++    <file>/usr/share/backgrounds/Mindblow_bright.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/ubuntu_by_arman1992.jpg</from>
+-    <to>/usr/share/backgrounds/ubuntu2_by_arman1992.jpg</to>
++    <from>/usr/share/backgrounds/Mindblow_bright.png</from>
++    <to>/usr/share/backgrounds/Mindblow_dark.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/ubuntu2_by_arman1992.jpg</file>
++    <file>/usr/share/backgrounds/Mindblow_dark.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/ubuntu2_by_arman1992.jpg</from>
+-    <to>/usr/share/backgrounds/jj_dark_by_Hiking93.jpg</to>
++    <from>/usr/share/backgrounds/Mindblow_dark.png</from>
++    <to>/usr/share/backgrounds/Mindblow_mono.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/jj_dark_by_Hiking93.jpg</file>
++    <file>/usr/share/backgrounds/Mindblow_mono.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/jj_dark_by_Hiking93.jpg</from>
+-    <to>/usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png</to>
++    <from>/usr/share/backgrounds/Mindblow_mono.png</from>
++    <to>/usr/share/backgrounds/Sphere_unc.png</to>
+   </transition>
+   <static>
+     <duration>1795.0</duration>
+-    <file>/usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png</file>
++    <file>/usr/share/backgrounds/Sphere_unc.png</file>
+   </static>
+   <transition>
+     <duration>5.0</duration>
+-    <from>/usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png</from>
+-    <to>/usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg</to>
++    <from>/usr/share/backgrounds/Sphere_unc.png</from>
++    <to>/usr/share/backgrounds/Sphere2_unc.png</to>
+   </transition>
+ </background>
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/changelog ubuntu-wallpapers-22.04.4/debian/changelog
+--- ubuntu-wallpapers-22.04.4.orig/debian/changelog	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4/debian/changelog	2023-12-18 10:40:00.589180077 +0300
+@@ -1,3 +1,21 @@
++ubuntu-wallpapers (22.04.4-0ubuntu1uncom3) andromeda; urgency=medium
++
++  * New material wallpapers
++
++ -- Evgeny Gorbachev <e.gorbachev@uncom.tech>  Mon, 18 Dec 2023 10:39:37 +0300
++
++ubuntu-wallpapers (22.04.4-0ubuntu1uncom2) jammy; urgency=medium
++
++  * new 4k wallpapers
++
++ -- Evgeny Gorbachev <e.gorbachev@tv-look.ru> Thu, 24 Nov 2022 10:24:34 +0300
++
++ubuntu-wallpapers (22.04.4-0ubuntu1uncom1) jammy; urgency=medium
++
++  * remove some wallpapers
++
++ -- Evgeny Gorbachev <e.gorbachev@tv-look.ru> Tue, 22 Nov 2022 12:12:34 +0300
++
+ ubuntu-wallpapers (22.04.4-0ubuntu1) jammy; urgency=medium
+ 
+   * Minor adjustments to the Jammy mascot wallpapers (LP: #1969148)
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.install ubuntu-wallpapers-22.04.4/debian/ubuntu-wallpapers.install
+--- ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.install	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4/debian/ubuntu-wallpapers.install	2023-12-18 10:32:18.755813152 +0300
+@@ -1,3 +1,4 @@
+-usr/share/backgrounds/warty-final-ubuntu.png
++usr/share/backgrounds/Sphere.png
++usr/share/backgrounds/Sphere2.png
+ usr/share/gnome-background-properties/ubuntu-wallpapers.xml
+ usr/share/locale
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers-jammy.install ubuntu-wallpapers-22.04.4/debian/ubuntu-wallpapers-jammy.install
+--- ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers-jammy.install	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4/debian/ubuntu-wallpapers-jammy.install	2023-12-18 11:15:43.934085526 +0300
+@@ -1,13 +1,36 @@
+-usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg
+-usr/share/backgrounds/canvas_by_roytanck.jpg
+-usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg
+-usr/share/backgrounds/DSC2943_by_kcpru.jpg
+-usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png
+-usr/share/backgrounds/jj_dark_by_Hiking93.jpg
+-usr/share/backgrounds/jj_light_by_Hiking93.jpg
+-usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg
+-usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg
+-usr/share/backgrounds/ubuntu2_by_arman1992.jpg
+-usr/share/backgrounds/ubuntu_by_arman1992.jpg
++usr/share/backgrounds/Aurora1_1.png
++usr/share/backgrounds/Aurora1.png
++usr/share/backgrounds/Badge.png
++usr/share/backgrounds/Distortion.png
++usr/share/backgrounds/Fringe.png
++usr/share/backgrounds/Indifference.png
++usr/share/backgrounds/Mindblow.png
++usr/share/backgrounds/Mindblow_bright.png
++usr/share/backgrounds/Mindblow_dark.png
++usr/share/backgrounds/Mindblow_mono.png
++usr/share/backgrounds/Sphere_unc.png
++usr/share/backgrounds/Sphere2_unc.png
++usr/share/backgrounds/You.png
++usr/share/backgrounds/Concrete_blocks.png
++usr/share/backgrounds/Concrete_waves.png
++usr/share/backgrounds/Fabric_waves_2.png
++usr/share/backgrounds/Fabric_waves.png
++usr/share/backgrounds/Felt_waves_2.png
++usr/share/backgrounds/Felt_waves.png
++usr/share/backgrounds/Fur_waves.png
++usr/share/backgrounds/Glass_lines.png
++usr/share/backgrounds/Glass_oreo.png
++usr/share/backgrounds/Glass_waves.png
++usr/share/backgrounds/Iron_layers.png
++usr/share/backgrounds/Iron_oreo.png
++usr/share/backgrounds/Paper_layers.png
++usr/share/backgrounds/Paper_lines.png
++usr/share/backgrounds/Plush_waves.png
++usr/share/backgrounds/Silk_waves.png
++usr/share/backgrounds/Wood_waves.png
++usr/share/backgrounds/Wool_surface.png
++usr/share/backgrounds/Wool_waves.png
++usr/share/gnome-background-properties/andromeda-wallpapers.xml
++usr/share/backgrounds/contest/andromeda.xml
+ usr/share/gnome-background-properties/jammy-wallpapers.xml
+ usr/share/backgrounds/contest/jammy.xml
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.links ubuntu-wallpapers-22.04.4/debian/ubuntu-wallpapers.links
+--- ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.links	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4/debian/ubuntu-wallpapers.links	2023-12-18 10:32:18.755813152 +0300
+@@ -1 +1 @@
+-/usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
++/usr/share/backgrounds/Indifference.png /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
+diff -Nur ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.postinst ubuntu-wallpapers-22.04.4/debian/ubuntu-wallpapers.postinst
+--- ubuntu-wallpapers-22.04.4.orig/debian/ubuntu-wallpapers.postinst	2022-04-14 21:35:49.000000000 +0300
++++ ubuntu-wallpapers-22.04.4/debian/ubuntu-wallpapers.postinst	2023-12-18 10:32:18.755813152 +0300
+@@ -4,7 +4,7 @@
+ case "$1" in
+     configure)
+         # Workaround LP: #746028
+-        touch /usr/share/backgrounds/warty-final-ubuntu.png
++        touch /usr/share/backgrounds/uncom.png
+     ;;
+ 
+     abort-upgrade|abort-deconfigure|abort-remove)
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Distortion.png и ubuntu-wallpapers-22.04.4/Distortion.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/DSC2943_by_kcpru.jpg и ubuntu-wallpapers-22.04.4/DSC2943_by_kcpru.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Fabric_waves_2.png и ubuntu-wallpapers-22.04.4/Fabric_waves_2.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Fabric_waves.png и ubuntu-wallpapers-22.04.4/Fabric_waves.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Felt_waves_2.png и ubuntu-wallpapers-22.04.4/Felt_waves_2.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Felt_waves.png и ubuntu-wallpapers-22.04.4/Felt_waves.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Fringe.png и ubuntu-wallpapers-22.04.4/Fringe.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Fur_waves.png и ubuntu-wallpapers-22.04.4/Fur_waves.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Glass_lines.png и ubuntu-wallpapers-22.04.4/Glass_lines.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Glass_oreo.png и ubuntu-wallpapers-22.04.4/Glass_oreo.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Glass_waves.png и ubuntu-wallpapers-22.04.4/Glass_waves.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Indifference.png и ubuntu-wallpapers-22.04.4/Indifference.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Iron_layers.png и ubuntu-wallpapers-22.04.4/Iron_layers.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Iron_oreo.png и ubuntu-wallpapers-22.04.4/Iron_oreo.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Jammy-Jellyfish_WP_4096x2304_Grey.png и ubuntu-wallpapers-22.04.4/Jammy-Jellyfish_WP_4096x2304_Grey.png различаются
+diff -Nur ubuntu-wallpapers-22.04.4.orig/jammy-wallpapers.xml.in ubuntu-wallpapers-22.04.4/jammy-wallpapers.xml.in
+--- ubuntu-wallpapers-22.04.4.orig/jammy-wallpapers.xml.in	2022-04-14 21:37:02.677457600 +0300
++++ ubuntu-wallpapers-22.04.4/jammy-wallpapers.xml.in	2023-12-18 10:32:18.763813297 +0300
+@@ -7,80 +7,104 @@
+    <options>zoom</options>
+  </wallpaper>
+  <wallpaper>
+-     <_name>Blue flower</_name>
+-     <filename>/usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg</filename>
++     <_name>Aurora1</_name>
++     <filename>/usr/share/backgrounds/Aurora1.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>canvas</_name>
+-     <filename>/usr/share/backgrounds/canvas_by_roytanck.jpg</filename>
++     <_name>Aurora1_1</_name>
++     <filename>/usr/share/backgrounds/Aurora1_1.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>Cherry Tree in Lakones</_name>
+-     <filename>/usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg</filename>
++     <_name>Badge</_name>
++     <filename>/usr/share/backgrounds/Badge.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>DSC2943</_name>
+-     <filename>/usr/share/backgrounds/DSC2943_by_kcpru.jpg</filename>
++     <_name>Distortion</_name>
++     <filename>/usr/share/backgrounds/Distortion.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>jj dark</_name>
+-     <filename>/usr/share/backgrounds/jj_dark_by_Hiking93.jpg</filename>
++     <_name>Fringe</_name>
++     <filename>/usr/share/backgrounds/Fringe.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>jj light</_name>
+-     <filename>/usr/share/backgrounds/jj_light_by_Hiking93.jpg</filename>
++     <_name>Indifference</_name>
++     <filename>/usr/share/backgrounds/Indifference.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>Mirror</_name>
+-     <filename>/usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg</filename>
++     <_name>Mindblow</_name>
++     <filename>/usr/share/backgrounds/Mindblow.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>Optical Fibers in Dark</_name>
+-     <filename>/usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg</filename>
++     <_name>Mindblow_bright</_name>
++     <filename>/usr/share/backgrounds/Mindblow_bright.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>ubuntu2</_name>
+-     <filename>/usr/share/backgrounds/ubuntu2_by_arman1992.jpg</filename>
++     <_name>Mindblow_dark</_name>
++     <filename>/usr/share/backgrounds/Mindblow_dark.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+      <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+-     <_name>ubuntu</_name>
+-     <filename>/usr/share/backgrounds/ubuntu_by_arman1992.jpg</filename>
++     <_name>Mindblow_mono</_name>
++     <filename>/usr/share/backgrounds/Mindblow_mono.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Sphere_unc</_name>
++     <filename>/usr/share/backgrounds/Sphere_unc.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>Sphere2_unc</_name>
++     <filename>/usr/share/backgrounds/Sphere2_unc.png</filename>
++     <options>zoom</options>
++     <pcolor>#000000</pcolor>
++     <scolor>#000000</scolor>
++     <shade_type>solid</shade_type>
++ </wallpaper>
++ <wallpaper>
++     <_name>You</_name>
++     <filename>/usr/share/backgrounds/You.png</filename>
+      <options>zoom</options>
+      <pcolor>#000000</pcolor>
+      <scolor>#000000</scolor>
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/jj_dark_by_Hiking93.jpg и ubuntu-wallpapers-22.04.4/jj_dark_by_Hiking93.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/jj_light_by_Hiking93.jpg и ubuntu-wallpapers-22.04.4/jj_light_by_Hiking93.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mindblow_bright.png и ubuntu-wallpapers-22.04.4/Mindblow_bright.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mindblow_dark.png и ubuntu-wallpapers-22.04.4/Mindblow_dark.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mindblow_mono.png и ubuntu-wallpapers-22.04.4/Mindblow_mono.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mindblow.png и ubuntu-wallpapers-22.04.4/Mindblow.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Mirror_by_Uday_Nakade.jpg и ubuntu-wallpapers-22.04.4/Mirror_by_Uday_Nakade.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg и ubuntu-wallpapers-22.04.4/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Paper_layers.png и ubuntu-wallpapers-22.04.4/Paper_layers.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Paper_lines.png и ubuntu-wallpapers-22.04.4/Paper_lines.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Plush_waves.png и ubuntu-wallpapers-22.04.4/Plush_waves.png различаются
+diff -Nur ubuntu-wallpapers-22.04.4.orig/po/ubuntu-wallpapers.pot ubuntu-wallpapers-22.04.4/po/ubuntu-wallpapers.pot
+--- ubuntu-wallpapers-22.04.4.orig/po/ubuntu-wallpapers.pot	2022-04-14 21:37:02.677457600 +0300
++++ ubuntu-wallpapers-22.04.4/po/ubuntu-wallpapers.pot	2023-12-18 11:26:35.632538517 +0300
+@@ -8,7 +8,7 @@
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2022-03-25 21:16+0100\n"
++"POT-Creation-Date: 2023-12-18 11:26+0300\n"
+ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+ "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+ "Language-Team: LANGUAGE <LL@li.org>\n"
+@@ -298,43 +298,55 @@
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:1
+-msgid "Blue flower"
++msgid "Aurora1"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:2
+-msgid "canvas"
++msgid "Aurora1_1"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:3
+-msgid "Cherry Tree in Lakones"
++msgid "Badge"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:4
+-msgid "DSC2943"
++msgid "Distortion"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:5
+-msgid "jj dark"
++msgid "Fringe"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:6
+-msgid "jj light"
++msgid "Indifference"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:7
+-msgid "Mirror"
++msgid "Mindblow"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:8
+-msgid "Optical Fibers in Dark"
++msgid "Mindblow_bright"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:9
+-msgid "ubuntu"
++msgid "Mindblow_dark"
+ msgstr ""
+ 
+ #: ../jammy-wallpapers.xml.in.h:10
+-msgid "ubuntu2"
++msgid "Mindblow_mono"
++msgstr ""
++
++#: ../jammy-wallpapers.xml.in.h:11
++msgid "Sphere_unc"
++msgstr ""
++
++#: ../jammy-wallpapers.xml.in.h:12
++msgid "Sphere2_unc"
++msgstr ""
++
++#: ../jammy-wallpapers.xml.in.h:13
++msgid "You"
+ msgstr ""
+ 
+ #: ../karmic-wallpapers.xml.in.h:1
+@@ -934,11 +946,11 @@
+ msgstr ""
+ 
+ #: ../ubuntu-wallpapers.xml.in.h:1
+-msgid "Ubuntu"
++msgid "Uncom"
+ msgstr ""
+ 
+ #: ../ubuntu-wallpapers.xml.in.h:2
+-msgid "Ubuntu Greyscale"
++msgid "Uncom2"
+ msgstr ""
+ 
+ #: ../utopic-wallpapers.xml.in.h:1
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Silk_waves.png и ubuntu-wallpapers-22.04.4/Silk_waves.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Sphere2.png и ubuntu-wallpapers-22.04.4/Sphere2.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Sphere2_unc.png и ubuntu-wallpapers-22.04.4/Sphere2_unc.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Sphere.png и ubuntu-wallpapers-22.04.4/Sphere.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Sphere_unc.png и ubuntu-wallpapers-22.04.4/Sphere_unc.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/ubuntu2_by_arman1992.jpg и ubuntu-wallpapers-22.04.4/ubuntu2_by_arman1992.jpg различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/ubuntu_by_arman1992.jpg и ubuntu-wallpapers-22.04.4/ubuntu_by_arman1992.jpg различаются
+diff -Nur ubuntu-wallpapers-22.04.4.orig/ubuntu-wallpapers.xml.in ubuntu-wallpapers-22.04.4/ubuntu-wallpapers.xml.in
+--- ubuntu-wallpapers-22.04.4.orig/ubuntu-wallpapers.xml.in	2022-04-14 21:37:02.677457600 +0300
++++ ubuntu-wallpapers-22.04.4/ubuntu-wallpapers.xml.in	2023-12-18 10:32:18.835814598 +0300
+@@ -2,19 +2,19 @@
+ <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+ <wallpapers>
+   <wallpaper>
+-    <_name>Ubuntu</_name>
+-    <filename>/usr/share/backgrounds/warty-final-ubuntu.png</filename>
++    <_name>Uncom</_name>
++    <filename>/usr/share/backgrounds/Sphere.png</filename>
+     <options>zoom</options>
+     <pcolor>#2c001e</pcolor>
+     <scolor>#2c001e</scolor>
+     <shade_type>solid</shade_type>
+   </wallpaper>
+   <wallpaper>
+-    <_name>Ubuntu Greyscale</_name>
+-    <filename>/usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png</filename>
++    <_name>Uncom2</_name>
++    <filename>/usr/share/backgrounds/Sphere2.png</filename>
+     <options>zoom</options>
+-    <pcolor>#333333</pcolor>
+-    <scolor>#333333</scolor>
++    <pcolor>#2c001e</pcolor>
++    <scolor>#2c001e</scolor>
+     <shade_type>solid</shade_type>
+   </wallpaper>
+ </wallpapers>
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/warty-final-ubuntu.png и ubuntu-wallpapers-22.04.4/warty-final-ubuntu.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Wood_waves.png и ubuntu-wallpapers-22.04.4/Wood_waves.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Wool_surface.png и ubuntu-wallpapers-22.04.4/Wool_surface.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/Wool_waves.png и ubuntu-wallpapers-22.04.4/Wool_waves.png различаются
+Двоичные файлы ubuntu-wallpapers-22.04.4.orig/You.png и ubuntu-wallpapers-22.04.4/You.png различаются
