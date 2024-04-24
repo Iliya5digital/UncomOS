@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ls /usr/share/icons/Yaru-* || {
+    echo "No yaru dirs, exiting"
+    exit 0
+}
+
+for dir in `ls -d /usr/share/icons/Yaru-*`
+do
+    echo $dir
+    find $dir -name "*.png" | xargs -i -t rm -f {}
+    find $dir -name "icon-theme.cache" | xargs -i -t rm -f {}
+done
